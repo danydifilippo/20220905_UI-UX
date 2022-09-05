@@ -234,13 +234,30 @@ footer a {
     .top {
         width: 100%;
     }
+
+    header img {
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 768px) {
 
-    header {
-        font-size: larger;
+    main {
+        font-size: 1.4em;
     }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    header {
+        font-size: x-large;
+    }
+
+    header img {
+        width: 40%;
+    }
+
 
     table {
         margin: auto;
@@ -248,22 +265,149 @@ footer a {
     }
 
     iframe {
-        width: 28em;
-        height: 15em;
+        width: 20em;
+        height: 11em;
         display: flex;
         margin: auto;
         margin-bottom: 2em;
     }
 
+    button, input {
+        font-size: large
+    }
+
+    aside {
+        text-align: center;
+    }
+
     aside div {
-        width: 25%;
+        width: 30%;
         height: 20%;
         display: inline-block;
         margin-inline: auto;
+        text-align: left;
     }
 
     footer {
         font-size: larger;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    main {
+        font-size: 1.8em;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    header {
+        font-size: x-large;
+    }
+
+    header img {
+        width: 38%;
+    }
+    
+    table {
+        margin: auto;
+        margin-bottom: 2em;
+    }
+    
+    button, input {
+        font-size: x-large
+    }
+
+    iframe {
+        width: 22em;
+        height: 12em;
+        display: flex;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+
+    aside {
+        text-align: center;
+    }
+
+    aside div {
+        font-size: 0.7em;
+        width: 32%;
+        height: 20%;
+        display: inline-block;
+        margin-inline: auto;
+        text-align: left;
+    }
+
+    footer {
+        font-size: 1.3em;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    body {
+        background-size: contain;
+    }
+
+    main {
+        font-size: 2.3em;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    header {
+        font-size: 2.7em;
+    }
+
+    header img {
+        width: 35%;
+        padding-bottom: 2%;
+    }
+
+    main img {
+        box-sizing: content-box;
+
+    }
+    
+    table {
+        margin: auto;
+        margin-bottom: 2em;
+    }
+    
+    button, input {
+        font-size: xx-large
+    }
+
+    iframe {
+        width: 22em;
+        height: 12em;
+        display: flex;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+
+    aside {
+        text-align: center;
+    }
+
+    aside div {
+        font-size: 0.8em;
+        width: 32%;
+        height: 20%;
+        display: inline-block;
+        margin-inline: auto;
+        text-align: left;
+    }
+
+    footer {
+        font-size: 1.8em;
     }
 
 }
