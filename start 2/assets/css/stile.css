@@ -231,7 +231,7 @@ footer a {
 }
 
 @media screen and (min-width: 320px) {
-    body {
+    .top {
         width: 100%;
     }
 }
@@ -248,10 +248,40 @@ footer a {
     }
 
     iframe {
-        width: 30em;
+        width: 28em;
         height: 15em;
         display: flex;
         margin: auto;
         margin-bottom: 2em;
     }
+
+    aside {
+
+    }
+
+    footer {
+        font-size: larger;
+    }
+
 }
+
+@media print {
+    header {
+        display: none;
+    }
+    body {
+        font-size: 2.4em;
+    }
+    main {
+        box-shadow: none;
+    }
+    table {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    iframe, section, aside, footer {
+        display: none;
+    }
+    .social, .toTop {
+        display: none;
+    }
